@@ -10,9 +10,10 @@ Pod::Spec.new do |s|
 
   s.name             = “AGDemo”
   s.version          = “0.0.1”
-  s.summary          = “AGDemo SDK for iOS"
+  s.summary      = "all kinds of AGDemo for iOS develop"
   s.homepage         = "http://www.appgame.com"
-  s.license          = 'Apache License, Version 2.0'
+  s.license      = "MIT"
+  s.license      = { :type => "MIT"， :file => "LICENSE" }
   s.author           = { “yardonghai” => “1032891512@qq.com" }
   s.source           = { :git => "https://github.com/yaodonghai/AGDemo.git”, :tag =>   s.version.to_s }
 
