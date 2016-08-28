@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AGDemo"
-  s.version      = "0.0.1"
-  s.summary      = "A short description of AGDemo."
+  s.version      = "0.0.2"
+  s.summary      = "all kinds of categories for iOS develop"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+                      this project provide all kinds of categories for iOS developer 
                    DESC
 
   s.homepage     = "https://github.com/yaodonghai/AGDemo"
@@ -50,8 +51,8 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  # s.author             = { "yaodonghai" => “1032891512@qq.com” }
-  s.author    = "yaodonghai"
+   s.author             = { "yaodonghai" => "1032891512@qq.com" }
+  # s.author    = "yaodonghai"
   # s.authors            = { "yaodonghai" => "" }
   # s.social_media_url   = "http://twitter.com/yaodonghai"
 
@@ -64,7 +65,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
 
   #  When using multiple platforms
-  #s.ios.deployment_target = “7.0”
+  s.ios.deployment_target = "7.0"
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
@@ -87,9 +88,12 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes”, "AGDemo/Classes/**/*.{h,m}”
-  s.exclude_files = "Classes/Exclude"
-  s.public_header_files = "AGDemo/Classes/AGFoundation/AGFoundation.h”,”AGDemo/Classes/AGUIKit/AGUIKit.h”,”AGDemo/Classes/**/*.h"
+
+  s.source_files  = "Classes", "AGDemo/Classes/**/*.{h,m}"
+  s.exclude_files = "Classes/AGFoundation/**/*.{h,m}", "Classes/AGUIKit/**/*.{h,m}"
+
+  s.public_header_files = "AGDemo/Classes/AGUIKit/AGUIKit.h”,”AGDemo/Classes/AGFoundation/AGFoundation.h","AGDemo/Classes/**/*.h"
+
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
