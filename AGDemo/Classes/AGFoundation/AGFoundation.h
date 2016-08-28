@@ -8,6 +8,6 @@
 
 #ifndef AGFoundation_h
 #define AGFoundation_h
-
+#import "AGTimer.h"
 
 #endif /* AGFoundation_h */

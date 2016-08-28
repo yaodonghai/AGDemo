@@ -8,6 +8,7 @@
 
 #ifndef AGUIKit_h
 #define AGUIKit_h
+#import "AGLabel.h"
 
 
 #endif /* AGUIKit_h */
