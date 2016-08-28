@@ -7,13 +7,14 @@
 #
 
 Pod::Spec.new do |s|
+
   s.name             = “AGDemo”
-  s.version          = “1.0.0”
+  s.version          = “0.0.1”
   s.summary          = “AGDemo SDK for iOS"
   s.homepage         = "http://www.appgame.com"
   s.license          = 'Apache License, Version 2.0'
   s.author           = { “yardonghai” => “1032891512@qq.com" }
-  s.source           = { :git => "https://github.com/yaodonghai/AGDemo.git”, :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/yaodonghai/AGDemo.git”, :tag =>   s.version.to_s }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
