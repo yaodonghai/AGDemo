@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
   s.frameworks = 'Foundation', 'UIKit'
   s.source_files  = "Classes"， "AGDemo/Classes/**/*.{h，m}"
   s.exclude_files = "Classes/Exclude"
-  s.public_header_files = "AGDemo/Classes/AGFoundation/UI_Categories.h"，"AGDemo/Classes/AGUIKit/Foundation_Category.h"，"iOS_Category/Classes/**/*.h"
-  s.xcconfig = {'OTHER_LDFLAGS' => '$(inherited) -ObjC'}
+  s.public_header_files = "AGDemo/Classes/AGFoundation/AGFoundation.h"，"AGDemo/Classes/AGUIKit/AGUIKit.h"，"AGDemo/Classes/**/*.h"
+
 end
